@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Visit Hangalas — туристический портал по Хангаласскому улусу Республики Саха (Якутия). Достопримечательности, туры, турбазы, карта и полезная информация для путешественников.">
+    <meta name="keywords" content="Хангаласский улус, Якутия, Ленские столбы, Бизонарий, Булуус, Тукуланы, туры, турбазы, Покровск">
+    <meta name="author" content="Visit Hangalas">
+
+    <title>Visit Hangalas | Туристический портал по Хангаласскому улусу</title>
+
+    <!-- Шрифт -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet (карта) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="lang-switcher">
+            <button class="lang-btn active" data-lang="ru">🇷🇺 RU</button>
+            <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+            <button class="lang-btn" data-lang="sah">🏹 САХА</button>
+        </div>
+
+        <div class="navbar">
+            <div class="logo">
+                <h1>VISIT HANGALAS</h1>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><button class="nav-btn active" data-page="home">Главная</button></li>
+                <li><button class="nav-btn" data-page="district">О районе</button></li>
+                <li><button class="nav-btn" data-page="attractions">Достопримечательности</button></li>
+                <li><button class="nav-btn" data-page="tours">Турбазы</button></li>
+                <li><button class="nav-btn" data-page="stay">Где остановиться</button></li>
+                <li><button class="nav-btn" data-page="eat">Где поесть</button></li>
+                <li><button class="nav-btn" data-page="see">Что посмотреть</button></li>
+                <li><button class="nav-btn" data-page="map">Карта</button></li>
+                <li><button class="nav-btn" data-page="contacts">Контакты</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main-content" class="main-content"></main>
+
+    <footer class="footer">
+        <p>© 2026 Visit Hangalas | Туристический портал по Хангаласскому улусу</p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
