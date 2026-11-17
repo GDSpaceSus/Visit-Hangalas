@@ -10,11 +10,11 @@ export function renderMapPage() {
                 <h3>${t('map_key_points_title')}</h3>
                 <ul>
                     <li><strong>${t('map_point_center')}</strong> — ${t('map_point_center_desc')}</li>
-                    <li><strong>🏛️ ${t('map_point_lena')}</strong> — ${t('map_point_lena_desc')}</li>
-                    <li><strong>🏜️ ${t('map_point_tukulans')}</strong> — ${t('map_point_tukulans_desc')}</li>
-                    <li><strong>🧊 ${t('map_point_buluus')}</strong> — ${t('map_point_buluus_desc')}</li>
-                    <li><strong>🦁 ${t('map_point_zoo')}</strong> — ${t('map_point_zoo_desc')}</li>
-                    <li><strong>💧 ${t('map_point_kuruluur')}</strong> — ${t('map_point_kuruluur_desc')}</li>
+                    <li><strong>${t('map_point_lena')}</strong> — ${t('map_point_lena_desc')}</li>
+                    <li><strong>${t('map_point_tukulans')}</strong> — ${t('map_point_tukulans_desc')}</li>
+                    <li><strong>${t('map_point_buluus')}</strong> — ${t('map_point_buluus_desc')}</li>
+                    <li><strong>${t('map_point_zoo')}</strong> — ${t('map_point_zoo_desc')}</li>
+                    <li><strong>${t('map_point_kuruluur')}</strong> — ${t('map_point_kuruluur_desc')}</li>
                 </ul>
             </div>
             <div class="info-block">

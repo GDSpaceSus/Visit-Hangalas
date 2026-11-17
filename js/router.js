@@ -3,21 +3,9 @@ import { updateNavigation } from './i18n.js';
 
 import { renderHomePage } from './pages/home.js';
 import { renderDistrictPage } from './pages/district.js';
-import {
-    renderAttractionsPage,
-    renderAttrLenaPillarsPage,
-    renderAttrBuluusPage,
-    renderAttrZooPage,
-    renderAttrKuruluurPage,
-    renderAttrTukulansPage,
-    renderAttrKullatyPage,
-    renderAttrBisonPage
-} from './pages/attractions.js';
-import {
-    renderToursPage,
-    renderLenaTourPage,
-    renderInYakutiaPage
-} from './pages/tours.js';
+
+import { renderAttractionsPage, renderAttractionDetail } from './pages/attractions.js';
+import { renderToursPage, renderTourDetail } from './pages/tours.js';
 
 import { renderStayPage, renderStayDetail } from './pages/stay.js';
 import { renderEatPage, renderEatDetail } from './pages/eat.js';
@@ -29,40 +17,42 @@ import { renderContactsPage } from './pages/contacts.js';
 const pagesData = {
     home: renderHomePage,
     district: renderDistrictPage,
+    map: renderMapPage,
+    contacts: renderContactsPage,
+
     attractions: renderAttractionsPage,
-    'attr-lena-pillars': renderAttrLenaPillarsPage,
-    'attr-buluus': renderAttrBuluusPage,
-    'attr-zoo': renderAttrZooPage,
-    'attr-kuruluur': renderAttrKuruluurPage,
-    'attr-tukulans': renderAttrTukulansPage,
-    'attr-kullaty': renderAttrKullatyPage,
-    'attr-bison': renderAttrBisonPage,
+    'attr-lena-pillars': () => renderAttractionDetail('attr-lena-pillars'),
+    'attr-buluus':       () => renderAttractionDetail('attr-buluus'),
+    'attr-zoo':          () => renderAttractionDetail('attr-zoo'),
+    'attr-kuruluur':     () => renderAttractionDetail('attr-kuruluur'),
+    'attr-tukulans':     () => renderAttractionDetail('attr-tukulans'),
+    'attr-kullaty':      () => renderAttractionDetail('attr-kullaty'),
+    'attr-bison':        () => renderAttractionDetail('attr-bison'),
+
     tours: renderToursPage,
-    'lena-tour': renderLenaTourPage,
-    'inyakutia': renderInYakutiaPage,
+    'lena-tour': () => renderTourDetail('lena-tour'),
+    'inyakutia': () => renderTourDetail('inyakutia'),
 
     stay: renderStayPage,
-    'stay-naraada': () => renderStayDetail('stay-naraada'),
-    'stay-lena-pillars': () => renderStayDetail('stay-lena-pillars'),
+    'stay-naraada':       () => renderStayDetail('stay-naraada'),
+    'stay-lena-pillars':  () => renderStayDetail('stay-lena-pillars'),
+    'stay-yamshitsk':  () => renderStayDetail('stay-yamshitsk'),
 
     eat: renderEatPage,
     'eat-orto-doidu': () => renderEatDetail('eat-orto-doidu'),
-    'eat-raimuss': () => renderEatDetail('eat-raimuss'),
-    'eat-ramen': () => renderEatDetail('eat-ramen'),
+    'eat-raimuss':    () => renderEatDetail('eat-raimuss'),
+    'eat-ramen':      () => renderEatDetail('eat-ramen'),
 
     see: renderSeePage,
     'see-museum-pokrovsk': () => renderSeeDetail('see-museum-pokrovsk'),
-    'see-lena-park': () => renderSeeDetail('see-lena-park'),
-    'see-orto-doidu': () => renderSeeDetail('see-orto-doidu'),
-    'see-ordzhonikidze': () => renderSeeDetail('see-ordzhonikidze'),
-    'see-elanka': () => renderSeeDetail('see-elanka'),
-    'see-nikolaev': () => renderSeeDetail('see-nikolaev'),
-    'see-oktemtsy': () => renderSeeDetail('see-oktemtsy'),
-    'see-ulakhan-an': () => renderSeeDetail('see-ulakhan-an'),
-    'see-danilov': () => renderSeeDetail('see-danilov'),
-
-    map: renderMapPage,
-    contacts: renderContactsPage
+    'see-lena-park':       () => renderSeeDetail('see-lena-park'),
+    'see-orto-doidu':      () => renderSeeDetail('see-orto-doidu'),
+    'see-ordzhonikidze':   () => renderSeeDetail('see-ordzhonikidze'),
+    'see-elanka':          () => renderSeeDetail('see-elanka'),
+    'see-nikolaev':        () => renderSeeDetail('see-nikolaev'),
+    'see-oktemtsy':        () => renderSeeDetail('see-oktemtsy'),
+    'see-ulakhan-an':      () => renderSeeDetail('see-ulakhan-an'),
+    'see-danilov':         () => renderSeeDetail('see-danilov')
 };
 
 onNavigate(pageId => {

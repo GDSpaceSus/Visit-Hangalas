@@ -219,6 +219,7 @@ html::-webkit-scrollbar-corner {
 .lang-switcher {
     display: flex;
     gap: 4px;
+    padding-top: 10px;
     margin-left: 20px;
     flex-shrink: 0;
 }
@@ -741,6 +742,23 @@ html::-webkit-scrollbar-corner {
     box-shadow: 0 6px 16px rgba(139, 74, 42, 0.3);
 }
 
+#tour-button {
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius:5px;
+
+    transition: all 0.3s;
+    background: #c9945a !important;
+    color: #faf3e4 !important;
+    border: none !important;
+}
+
+#tour-button:hover {
+    background: #8b4a2a !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(139, 74, 42, 0.3);
+}
+
 .tab-headers {
     display: flex;
     gap: 8px;
@@ -870,11 +888,6 @@ html::-webkit-scrollbar-corner {
 
     .nav-links::-webkit-scrollbar {
         display: none;
-    }
-
-    .lang-switcher {
-        margin-left: 0;
-        margin-top: 10px;
     }
 
     .slider {

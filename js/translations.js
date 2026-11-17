@@ -3,7 +3,7 @@ export const translations = {
     'nav_home':        { ru: 'Главная',              en: 'Home',               sah: 'Сүрүн' },
     'nav_district':    { ru: 'О районе',             en: 'About District',     sah: 'Улуус туһунан' },
     'nav_attractions': { ru: 'Достопримечательности', en: 'Attractions',        sah: 'Кэрэхсэбиллээх сирдэр' },
-    'nav_tours':       { ru: 'Турбазы',              en: 'Tour Bases',         sah: 'Турбазалар' },
+    'nav_tours':       { ru: 'Туры',              en: 'Tours',         sah: 'Турдар' },
     'nav_stay':        { ru: 'Где остановиться',     en: 'Where to Stay',      sah: 'Ханна тохтуурга' },
     'nav_eat':         { ru: 'Где поесть',           en: 'Where to Eat',       sah: 'Ханна аһыырга' },
     'nav_see':         { ru: 'Что посмотреть',       en: 'What to See',        sah: 'Тугу көрөргө' },
@@ -55,10 +55,10 @@ export const translations = {
     'read_more': { ru: 'Читать далее', en: 'Read more', sah: 'Ааҕыах' },
     'read_less': { ru: 'Свернуть',      en: 'Show less', sah: 'Сап' },
 
-    'district_geo_title': { ru: '🏞️ Географическое положение', en: '🏞️ Location',  sah: '🏞️ География' },
+    'district_geo_title': { ru: 'Географическое положение', en: 'Location',  sah: 'География' },
     'district_geo_text':  { ru: 'Расположен в центральной части Якутии.', en: 'Located in central Yakutia.', sah: 'Саха сирин киин өттүгэр баар.' },
 
-    'district_climate_title':               { ru: '🌡️ Климат',           en: '🌡️ Climate',           sah: '🌡️ Климат' },
+    'district_climate_title':               { ru: 'Климат',           en: 'Climate',           sah: 'Климат' },
     'district_climate_text':                { ru: 'Резко континентальный.', en: 'Sharply continental.', sah: 'Тосту континентальнай.' },
     'district_climate_temp_jan':            { ru: 'Средняя t января',    en: 'Avg Jan',              sah: 'Тохсунньу орто t' },
     'district_climate_temp_jan_value':      { ru: '−45°C',               en: '−45°C',                sah: '−45°C' },
@@ -71,7 +71,7 @@ export const translations = {
     'district_climate_record_high':         { ru: 'Абс. максимум',       en: 'Record high',          sah: 'Абс. максимум' },
     'district_climate_record_high_value':   { ru: '+37°C',               en: '+37°C',                sah: '+37°C' },
 
-    'district_transport_title':          { ru: '🚌 Транспорт',              en: '🚌 Transport',           sah: '🚌 Транспорт' },
+    'district_transport_title':          { ru: 'Транспорт',              en: 'Transport',           sah: 'Транспорт' },
     'district_transport_text':           { ru: 'Развитая инфраструктура.',  en: 'Developed infrastructure.', sah: 'Сайдыылаах.' },
     'district_transport_road':           { ru: 'Автодороги',                en: 'Roads',                  sah: 'Суоллар' },
     'district_transport_road_value':     { ru: 'Федеральная трасса «Лена».', en: 'Federal highway "Lena".', sah: '«Лена» трасса.' },
@@ -82,7 +82,7 @@ export const translations = {
     'district_transport_bus':            { ru: 'Автобусы',                  en: 'Buses',                  sah: 'Автобустар' },
     'district_transport_bus_value':      { ru: 'Рейсы каждые 30–60 мин.',   en: 'Every 30–60 min.',       sah: '30–60 мүн аайы.' },
 
-    'district_history_title': { ru: '📜 История', en: '📜 History', sah: '📜 Устуоруйа' },
+    'district_history_title': { ru: 'История', en: 'History', sah: 'Устуоруйа' },
     'district_history_text': {
         ru: 'Древняя хангаласская земля является прародиной народа саха. Наименование «Хангаласский» отражается в документах с 1632 года, то есть со времен прихода в Якутию русских казаков. В 1860 году обширный Хангаласский улус разделился на два улуса — Западно-Кангаласский и Восточно-Кангаласский. В нынешних границах улус образован 10 февраля 1930 года, ему было дано название Западно-Кангаласский район, в 1937 году был переименован в Орджоникидзевский, в честь отбывавшего здесь ссылку Серго Орджоникидзе. Исконное название было возвращено в 1992 году.',
         en: 'The ancient Khangalassky land is the ancestral home of the Sakha people. The name "Khangalassky" appears in documents since 1632, that is, since the arrival of Russian Cossacks in Yakutia. In 1860, the vast Khangalassky ulus was divided into two uluses — West Kangalassky and East Kangalassky. In its current borders, the ulus was formed on February 10, 1930, and was named the West Kangalassky District; in 1937 it was renamed Ordzhonikidzevsky, in honor of Sergo Ordzhonikidze, who served exile here. The original name was returned in 1992.',
@@ -90,7 +90,7 @@ export const translations = {
     },
     'district_history_more': { ru: 'Подробнее…', en: 'Learn more…', sah: 'Сиһилии…' },
 
-    'district_traditions_title':        { ru: '🛷 Традиционные занятия', en: '🛷 Traditions',   sah: '🛷 Үгэс дьарыктар' },
+    'district_traditions_title':        { ru: 'Традиционные занятия', en: 'Traditions',   sah: 'Үгэс дьарыктар' },
     'district_traditions_text':         { ru: 'Коневодство, скотоводство.', en: 'Horse breeding, cattle.', sah: 'Сылгы, сүөһү.' },
     'district_tradition_1_name':        { ru: 'Коневодство',  en: 'Horse Breeding', sah: 'Сылгы' },
     'district_tradition_1_desc':        { ru: 'Якутская лошадь.', en: 'Yakut horse.', sah: 'Саха ата.' },
@@ -103,7 +103,7 @@ export const translations = {
     'district_tradition_5_name':        { ru: 'Ремёсла',      en: 'Crafts',        sah: 'Илиинэн' },
     'district_tradition_5_desc':        { ru: 'Резьба, плетение.', en: 'Carving, weaving.', sah: 'Ойуулааһын.' },
 
-    'district_population_title': { ru: '👥 Население', en: '👥 Population', sah: '👥 Нэһилиэнньэ' },
+    'district_population_title': { ru: 'Население', en: 'Population', sah: 'Нэһилиэнньэ' },
     'district_population_text': {
         ru: 'Большая часть жителей — горожане. В административном центре, Покровске, живёт примерно 11 900 человек, ещё около 5 200 — в посёлке Мохсоголлох. Остальные — в сельских населённых пунктах (всего в улусе 29 населённых пунктов). По данным Росстата, на 1 января 2025 года в Хангаласском улусе проживало 34 190 человек.',
         en: 'Most residents are urban dwellers. About 11,900 people live in the administrative center, Pokrovsk, and about 5,200 more — in the village of Moksogollokh. The rest live in rural settlements (29 settlements in total in the district). According to Rosstat, as of January 1, 2025, 34,190 people lived in Khangalassky District.',
@@ -279,10 +279,10 @@ export const translations = {
     'lena_tour_title':    { ru: 'Лена Тур',         en: 'Lena Tour',      sah: 'Лена Тур' },
     'lena_tour_subtitle': { ru: 'Однодневные туры', en: 'One-day tours',  sah: 'Биир күннээх' },
 
-    'tab_deer':        { ru: '🦌 Северные олени',   en: '🦌 Reindeer',        sah: '🦌 Табалар' },
-    'tab_sinsk':       { ru: '🎵 Синские столбы',   en: '🎵 Sinsk Pillars',   sah: '🎵 Сиинэ' },
-    'tab_winter_lena': { ru: '❄️ Зимние Столбы',    en: '❄️ Winter Pillars',  sah: '❄️ Кыһыҥҥы' },
-    'tab_khandyga':    { ru: '🏔️ Хандыга',          en: '🏔️ Khandyga',        sah: '🏔️ Хаандыга' },
+    'tab_deer':        { ru: 'Северные олени',   en: 'Reindeer',        sah: 'Табалар' },
+    'tab_sinsk':       { ru: 'Синские столбы',   en: 'Sinsk Pillars',   sah: 'Сиинэ' },
+    'tab_winter_lena': { ru: 'Зимние Столбы',    en: 'Winter Pillars',  sah: 'Кыһыҥҥы' },
+    'tab_khandyga':    { ru: 'Хандыга',          en: 'Khandyga',        sah: 'Хаандыга' },
 
     'tour_deer_desc':        { ru: 'Знакомство с оленеводами.', en: 'Meet reindeer herders.', sah: 'Табаһыттары кытта.' },
     'tour_deer_duration':    { ru: '8 часов',          en: '8 hours',          sah: '8 чаас' },
@@ -315,10 +315,10 @@ export const translations = {
     'inyakutia_title':    { ru: 'инЯкутия',        en: 'inYakutia',        sah: 'инЯкутия' },
     'inyakutia_subtitle': { ru: 'Туры в Якутию',   en: 'Tours to Yakutia', sah: 'Саха сиригэр' },
 
-    'tab_indigirka': { ru: '❄️ Индигирка',                       en: '❄️ Indigirka',                       sah: '❄️ Индигирка' },
-    'tab_oymyakon':  { ru: '🗺️ Якутск–Оймякон–Магадан',         en: '🗺️ Yakutsk–Oymyakon–Magadan',        sah: '🗺️ Дьокуускай–Өймөкөөн–Магадаан' },
-    'tab_lena_raft': { ru: '🚣 Сплав по Лене',                   en: '🚣 Lena Rafting',                    sah: '🚣 Өлүөнэ' },
-    'tab_sinyaya':   { ru: '🏞️ Река Синяя',                     en: '🏞️ Sinyaya River',                   sah: '🏞️ Сиинэ' },
+    'tab_indigirka': { ru: 'Индигирка',                       en: 'Indigirka',                       sah: 'Индигирка' },
+    'tab_oymyakon':  { ru: 'Якутск–Оймякон–Магадан',         en: 'Yakutsk–Oymyakon–Magadan',        sah: 'Дьокуускай–Өймөкөөн–Магадаан' },
+    'tab_lena_raft': { ru: 'Сплав по Лене',                   en: 'Lena Rafting',                    sah: 'Өлүөнэ' },
+    'tab_sinyaya':   { ru: 'Река Синяя',                     en: 'Sinyaya River',                   sah: 'Сиинэ' },
 
     'tour_indigirka_desc':          { ru: 'Суровая река.',        en: 'Severe river.',         sah: 'Тыйыс өрүс.' },
     'tour_indigirka_duration':      { ru: '5 дней',               en: '5 days',                sah: '5 күн' },
@@ -401,7 +401,7 @@ export const translations = {
     'map_point_kuruluur':        { ru: 'Курулуур',           en: 'Kuruluur',            sah: 'Курулуур' },
     'map_point_kuruluur_desc':   { ru: 'Водопад',            en: 'Waterfall',           sah: 'Күрүлгэн' },
 
-    'map_how_to_get_title': { ru: '🚗 Как добраться',     en: '🚗 How to Get',       sah: '🚗 Хайдах тиийиэххэ' },
+    'map_how_to_get_title': { ru: 'Как добраться',     en: 'How to Get',       sah: 'Хайдах тиийиэххэ' },
     'map_how_to_get_text':  { ru: 'Трасса «Лена», 85 км.', en: 'Highway "Lena", 85 km.', sah: '«Лена» трасса, 85 км.' },
 
     'map_marker_pokrovsk':          { ru: 'Покровск',        en: 'Pokrovsk',              sah: 'Покровскай' },
