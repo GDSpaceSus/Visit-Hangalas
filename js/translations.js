@@ -8,6 +8,7 @@ export const translations = {
     'nav_eat':         { ru: 'Где поесть',           en: 'Where to Eat',       sah: 'Ханна аһыырга' },
     'nav_see':         { ru: 'Что посмотреть',       en: 'What to See',        sah: 'Тугу көрөргө' },
     'nav_map':         { ru: 'Карта',                en: 'Map',                sah: 'Каарта' },
+    'nav_audio':    { ru: 'Аудиогид',             en: 'Audio-guide',           sah: 'Аудиогид' },
     'nav_contacts':    { ru: 'Контакты',             en: 'Contacts',           sah: 'Билсэр сирдэр' },
 
     //HOME
@@ -2099,9 +2100,9 @@ export const translations = {
     'eat_cuisine_author':        { ru: 'Авторская',     en: "Author's",      sah: 'Ааптарскай' },
     'eat_cuisine_confectionery': { ru: 'Кондитерская',  en: 'Confectionery', sah: 'Кондитерскай' },
     'eat_cuisine_korean':        { ru: 'Корейская',     en: 'Korean',        sah: 'Корейскай' },
-    'eat_hours':        { ru: 'Часы работы',     en: 'Working hours',        sah: 'Корейскай' },
-    'eat_contacts':        { ru: 'Контакты',     en: 'Contacts',        sah: 'Корейскай' },
-    'eat_cuisine':        { ru: 'Кухня',     en: 'Cuisine',        sah: 'Корейскай' },
+    'eat_hours':        { ru: 'Часы работы',     en: 'Working hours',        sah: 'Үлэлиир бириэмэтэ' },
+    'eat_contacts':        { ru: 'Контакты',     en: 'Contacts',        sah: 'Ситим' },
+    'eat_cuisine':        { ru: 'Кухня',     en: 'Cuisine',        sah: 'Кухня' },
 
     'eat_title':    { ru: 'Где поесть',       en: 'Where to Eat', sah: 'Ханна аһыырга' },
     'eat_subtitle': { ru: 'Кафе и рестораны', en: 'Cafes',        sah: 'Кафелар' },
@@ -2114,15 +2115,35 @@ export const translations = {
         en: "A restaurant featuring original Yakut cuisine. The menu offers dishes made from local ingredients, such as *stroganina* (thinly shaved frozen fish), foal meat, mare’s milk, and wild-foraged plants. The interior is designed in a traditional national style.", 
         sah: 'Ресторан, специализирующийся на якутской кухне. Менюҕа олохтоох ингредиеннэртэн оҥоһуллубут аһылыктар бааллар: строганина, сылгы этин, сылгы үүтүн уонна дьиикэй хортуоппуйу. Ис өттө үгэс буолбут истиилинэн киэргэтиллибит.' 
     },
-    'eat_orto_doidu_address': { ru: 'Покровское шоссе 49 километр, 1', en: "Author's dishes.", sah: 'Ааптарскай ас.' },
-    'eat_orto_doidu_hours': { ru: 'Ежедневно с 8:00 до 23:00', en: "Author's dishes.", sah: 'Ааптарскай ас.' },
+    'eat_orto_doidu_address': { ru: 'Покровское шоссе 49 километр, 1', en: "Pokrovskoe Highway, 49th kilometer, 1", sah: 'Покровское шоссе 49 километр, 1' },
+    'eat_orto_doidu_hours': { ru: 'Ежедневно с 8:00 до 23:00', en: "Every day from 8:00 to 23:00", sah: 'Күн аайы 8:00 чаастан 23:00 чааска диэри' },
     'eat_orto_doidu_kitchen': { ru: 'Авторская якутская', en: "Author's dishes.", sah: 'Ааптарскай ас.' },
 
     'eat_raimuss':      { ru: 'Раймусс',    en: 'Raimuss',    sah: 'Раймусс' },
     'eat_raimuss_desc': { ru: 'Десерты.',   en: 'Desserts.',  sah: 'Десерттар.' },
 
+    'eat_raimuss_desc_full': 
+    { 
+        ru: 'Кондитерская с домашними десертами, тортами на заказ и свежей выпечкой. Популярное место у местных жителей.', 
+        en: "A confectionery offering homemade desserts, custom-made cakes, and fresh baked goods. A popular spot among locals.", 
+        sah: 'Дьиэҕэ оҥоһуллубут минньигэс аһылыктаах, сакаас быһыытынан оҥоһуллубут торттаах уонна саҥа буспут астаах кондитерскай маҕаһыын. Олохтоохтор ортолоругар биллэр сир.' 
+    },
+    'eat_raimuss_address': { ru: 'г. Покровск, ул. Братьев Ксенофонтовых, 23', en: "23 Bratiev Ksenofontovykh St., Pokrovsk", sah: 'г. Покровск, ул. Братьев Ксенофонтовых, 23' },
+    'eat_raimuss_hours': { ru: 'Пн–Чт 08:30–19:00, Пятница 10:00-20:00, Сб-Вс 11:00–20:00', en: "Mon–Thu 08:30–19:00, Friday 10:00–20:00, Sat–Sun 11:00–20:00", sah: 'Пн-Чт 08:30-19:00, Пятница 10:00-20:00, Сб-Вс 11:00-20:00' },
+    'eat_raimuss_kitchen': { ru: 'Кондитерская', en: "Confectionery", sah: 'Кондитерскай оҥоһук' },
+
     'eat_ramen':      { ru: "Ра'мен Шоп",   en: "Ra'men Shop",  sah: "Ра'мен Шоп" },
     'eat_ramen_desc': { ru: 'Вкус Кореи.',  en: 'Taste of Korea.', sah: 'Корея амтана.' },
+
+    'eat_ramen_desc_full': 
+    { 
+        ru: 'Корейская кухня: рамен, кимчи, пибимпап, корейские закуски. Быстрое обслуживание, большие порции.', 
+        en: "Korean cuisine: ramen, kimchi, bibimbap, and Korean side dishes. Fast service, large portions.", 
+        sah: 'Корейскай кухня: рамен, кимчи, бибимбап, корейскай аппетиттар. Түргэнник обслуживайдыыр, улахан порциялаах.' 
+    },
+    'eat_ramen_address': { ru: 'г. Покровск, ул. Братьев Ксенофонтовых, 23', en: "23 Bratiev Ksenofontovykh St., Pokrovsk", sah: 'г. Покровск, ул. Братьев Ксенофонтовых, 23' },
+    'eat_ramen_hours': { ru: 'Ежедневно с 11:00 до 20:00', en: "Every day from 11:00 to 20:00", sah: 'Күн аайы 11:00 чаастан 20:00 чааска диэри' },
+    'eat_ramen_kitchen': { ru: 'Корейская',     en: 'Korean',        sah: 'Корейскай' },
 
     'back_to_eat': { ru: '← Назад к «Где поесть»', en: '← Back to "Where to Eat"', sah: '← «Ханна аһыырга»' },
 
@@ -2130,8 +2151,176 @@ export const translations = {
 
     'see_title':    { ru: 'Что посмотреть', en: 'What to See',     sah: 'Тугу көрөргө' },
     'see_subtitle': { ru: 'Музеи и парки',  en: 'Museums & parks', sah: 'Музейдар уонна пааркалар' },
+    'see_description': { ru: 'Описание',  en: 'Description', sah: 'Ойуулааһын' },
+    'see_address': { ru: 'Адрес',  en: 'Address', sah: 'Аадырыс' },
+    'see_hours': { ru: 'Часы работы',  en: 'Opening hours', sah: 'Үлэлиир бириэмэтэ' },
+    'see_tickets': { ru: 'Билеты',  en: 'Tickets', sah: 'Билиэттэр' },
+    'see_instructions': { ru: 'Как добраться',  en: 'How to get there', sah: 'Онно хайдах тиийиэххэ собуй' },
+    'see_entry': { ru: 'Вход',  en: 'Entrance', sah: 'Киирии' },
+
+    // KRAEVED
+
+    'see_kraeved':      { ru: 'Краеведческий музей г. Покровска',   en: 'Pokrovsk Local History Museum',     sah: 'Краеведческий музей г. Покровска' },
+    'see_kraeved_desc': { 
+        ru: 'Богатая коллекция экспонатов: от древних окаменелостей до современного искусства.', 
+        en: "A rich collection of exhibits: from ancient fossils to contemporary art.", 
+        sah: 'Экспонаттар баай хомуурунньуктара: былыргы харамайдартан саҕалаан аныгы искусствоҕа тиийэ.' },
+    'see_kraeved_type': { ru: 'Музей', en: "Museum", sah: 'Түмэл' },
+    'see_kraeved_desc_alt': 
+    { 
+        ru: 'Один из старейших музеев Якутии. Постоянные экспозиции: палеонтология, этнография, история казачества, современное искусство. Регулярно проходят временные выставки.', 
+        en: "One of the oldest museums in Yakutia. Permanent exhibitions cover paleontology, ethnography, the history of the Cossacks, and contemporary art. Temporary exhibitions are also held regularly.", 
+        sah: 'Один из старейших музеев Якутии. Туруу быыстапкалара палеонтологияны, этнографияны, казактар ​​историяларын уонна аныгы искусствоны сырдаталлар. Быстах быыстапкалар өрүү ыытыллаллар.' 
+    },
+    'see_kraeved_address': { ru: 'г. Покровск, ул. Орджоникидзе, 50', en: "Pokrovsk, Ordzhonikidze St., 50", sah: 'г. Покровск, ул. Орджоникидзе, 50' },
+    'see_kraeved_hours': { ru: 'Будние дни 9:00–17:00, Сб-Вс Выходной', en: "Weekdays 9:00–17:00, Sat–Sun Closed", sah: 'Үлэ күннэрэ 9:00–17:00, Сб-Вс сабыллар' },
+    'see_kraeved_ticket': { ru: 'Взрослый — 200 ₽, детский — 100 ₽', en: "Adult — 200 ₽, child — 100 ₽", sah: 'Улахан киһи - 200 ₽, оҕо - 100 ₽' },
+
+    // LENA PARK SEE
+
+    'see_lena_park': { ru: 'Природный парк «Ленские столбы»',   en: '"Lena Pillars" Nature Park',     sah: 'Природный парк «Ленские столбы»' },
+    'see_lena_park_desc': { 
+        ru: 'Прогулки по экологическим тропам, смотровые площадки, музей под открытым небом. Внесён в список ЮНЕСКО.', 
+        en: "Walks along nature trails, observation decks, an open-air museum. Included on the UNESCO list.", 
+        sah: 'Экологическай суоллар, наблюдательнай площадкалар уонна аһаҕас ааннаах музей. ЮНЕСКО аан дойду нэһилиэстибэтин сирэ.' },
+    'see_lena_park_type': { ru: 'Природный парк', en: "Nature park", sah: 'Айылҕа паарката' } ,
+    'see_lena_park_desc_alt': 
+    { 
+        ru: 'Природный парк, включённый в список Всемирного наследия ЮНЕСКО. Величественные скалы высотой до 300 метров, экотропы, смотровые площадки, музей под открытым небом и стоянки древних людей.', 
+        en: "A nature park designated as a UNESCO World Heritage site. It features majestic cliffs reaching heights of up to 300 meters, eco-trails, observation decks, an open-air museum, and sites once inhabited by ancient humans.", 
+        sah: 'ЮНЕСКО Аан дойду нэһилиэстибэтин испииһэгэр киирбит айылҕа паарката. 300 миэтэрэҕэ диэри үрдүктээх улахан хайалар, айылҕа суоллара, көрөр-истэр сирдэрэ, аан таһынааҕы музей уонна былыргы дьон олорбут сирдэрэ.' 
+    },
+    'see_lena_park_address': { ru: 'Хангаласский улус, правый берег реки Лены, 60 км от Покровска.', en: "Khangalassky District, right bank of the Lena River, 60 km from Pokrovsk.", sah: 'Хангаласский улус, правый берег реки Лены, 60 км от Покровска.' },
+    'see_lena_park_instructions': { ru: 'Из Якутска до Покровска (85 км), далее катером или на моторной лодке вверх по Лене. Зимой — по зимнику.', en: "From Yakutsk to Pokrovsk (85 km), then by cutter or motorboat upstream along the Lena River. In winter, travel is via an ice road.", sah: 'Из Якутска до Покровска (85 км), затем взять на лодке или моторной лодке вверх по реке Лена. Кыһыҥҥы кэмҥэ кыһыҥҥы суолунан бар.' },
+    'see_lena_park_entry': { ru: 'Единый билет в парк — 300 ₽, экскурсия — от 1 500 ₽', en: "Unified park ticket — 300 ₽, guided tour — from 1,500 ₽", sah: 'Пааркаҕа биир билиэт сыаната 300 ₽ солкуобай, экскурсия 1500 ₽ солкуобайтан саҕаланар.' },
+
+    // ORTO-DOYDU PARK
+
+    'see_orto-doydu':      { ru: 'Этнографический комплекс «Орто дойду»',   en: 'Ethnographic complex “Orto Doidu”',     sah: '«Орто Дойду» этнографическай комплекс' },
+    'see_orto-doydu_desc': { 
+        ru: 'На территории есть банкетный зал в национальном стиле, тёплые домики, ледовая горка, катание на ватрушках и снегоходах.', 
+        en: "On the premises, there is a banquet hall designed in a traditional national style, heated cabins, an ice slide, and opportunities for snow tubing and snowmobiling.", 
+        sah: 'Бу сиргэ национальнай стиллээх банкетнай саала, сылаас коттеджтар, муус горката, трубка уонна снегоходунан айанныыр сирдэр бааллар.' },
+    'see_orto-doydu_type': { ru: 'Этно-парк', en: "Ethno-park", sah: 'Этно-парк' },
+    'see_orto-doydu_desc_alt': 
+    { 
+        ru: 'Этнографический комплекс в национальном стиле. Проводятся традиционные обряды, мастер-классы по народным ремёслам, национальные праздники (Ысыах и др.).', 
+        en: "An ethnographic complex designed in a traditional national style. It hosts traditional rituals, workshops on folk crafts, and national celebrations (such as Ysyakh).", 
+        sah: 'Национальнай стиллээх этнографическай комплекс. Үгэс буолбут сиэр-туом, норуот оҥоһуктарын мастарыскыайдара, норуот бырааһынньыктара (Ыһыах уо.д.а.) ыытыллаллар.' 
+    },
+    'see_orto-doydu_address': { ru: 'Хангаласский улус, вблизи села Октемцы.', en: "Khangalassky ulus, near the village of Oktemtsy.", sah: 'Хангаласский улус, октемцы с.' },
+    'see_orto-doydu_hours': { ru: 'Ежедневно 09:00–21:00, по предварительной записи.', en: "Daily 09:00–21:00, by appointment only.", sah: 'Күн аайы 09:00–21:00, сөбүлэһии быһыытынан.' },
+    'see_orto-doydu_ticket': { ru: 'Экскурсия — от 500 ₽, мастер-класс — от 800 ₽', en: "Guided tour — from 500 ₽, workshop — from 800 ₽", sah: 'Экскурсия — от 500 ₽, мастер-класс — от 800 ₽' },
+
+    // SEE ORD
+
+    'see_ord':      { ru: 'Дом-музей Серго Орджоникидзе',   en: 'Sergo Ordzhonikidze House-Museum',     sah: 'Серго Орджоникидзе дьиэтин музейа' },
+    'see_ord_desc': { 
+        ru: 'Выдающийся государственный деятель, внёсший значительный вклад в историю Якутии и страны.', 
+        en: "An outstanding statesman who made a significant contribution to the history of Yakutia and the country.", 
+        sah: 'Выдающийся государственный деятель, внёсший значительный вклад в историю Якутии и страны.' },
+    'see_ord_type': { ru: 'Музей', en: "Museum", sah: 'Түмэл' },
+    'see_ord_desc_alt': 
+    { 
+        ru: 'Мемориальный дом-музей, посвящённый Серго Орджоникидзе, отбывавшему здесь ссылку. Воссоздан быт конца XIX века.', 
+        en: "A memorial house-museum dedicated to Sergo Ordzhonikidze, who served a period of exile here. The living conditions of the late 19th century have been recreated.", 
+        sah: 'Манна эмиграциятын ааспыт Серго Орджоникидзеҕа аналлаах өйдөбүнньүк дьиэ-музей. XIX үйэ бүтүүтүн күннээҕи олоҕун ойуулуур.' 
+    },
+    'see_ord_address': { ru: 'Хангаласский улус, с. Октемцы.', en: "Khangalassky ulus, village. Oktemtsy.", sah: 'Хангаласский улус, с. Октемцы.' },
+    'see_ord_hours': { ru: 'Вт–Сб 10:00–17:00', en: "Tue–Sat 10:00–17:00", sah: 'Вт–Сб 10:00–17:00' },
+    'see_ord_ticket': { ru: 'Взрослый — 150 ₽, детский — 80 ₽', en: "Adult — 150 ₽, child — 80 ₽", sah: 'Улахан киһи - 150 ₽, оҕо - 80 ₽' },
+
+    //SEE ELANKA
+
+    'see_elanka': { ru: 'Водопад Еланка',   en: 'Elanka Waterfall',     sah: 'Эланка уу түһэр сирэ' },
+    'see_elanka_desc': { 
+        ru: 'Природное явление в Республике Саха (Якутия), расположенное в посёлке Еланка Хангаласского района.', 
+        en: "A natural phenomenon in the Republic of Sakha (Yakutia), located in the settlement of Elanka in the Khangalassky District.", 
+        sah: 'Природное явление в Республике Саха (Якутия), расположенное в посёлке Еланка Хангаласского района.' },
+    'see_elanka_type': { ru: 'Природный парк', en: "Waterfall", sah: 'Уу түһэр сирэ' } ,
+    'see_elanka_desc_alt': 
+    { 
+        ru: 'Живописный водопад в посёлке Еланка. Особенно красив весной и в начале лета, когда тают снега. Рядом — удобные смотровые площадки.', 
+        en: "A picturesque waterfall in the village of Elanka. It is especially beautiful in the spring and early summer, when the snow melts. Nearby, there are convenient viewing platforms.", 
+        sah: 'Живописный водопад в селе Еланка. Ордук саас, сайын эрдэ хаар ууллар кэмигэр кэрэ буолар. Чугас көрөргө табыгастаах платформалар бааллар.' 
+    },
+    'see_elanka_address': { ru: 'Хангаласский улус, пос. Еланка.', en: "Khangalassky ulus, village. Elanka.", sah: 'Хангаласский улус, с. Еланка.' },
+    'see_elanka_instructions': { ru: 'Из Якутска по Покровскому тракту до поворота на Еланку (около 60 км).', en: "From Yakutsk, take the Pokrovsky Tract as far as the turnoff for Elanka (about 60 km).", sah: 'Из Якутска взять по Покровскому тракту до отворота в Еланку (около 60 км).' },
+
+    //SEE NIKOLAEV
+
+    'see_nikolaev':      { ru: 'Дом-музей М.Е. Николаева',   en: 'House-Museum of M.E. Nikolaev',     sah: 'Николаев дьиэтэ-музейа' },
+    'see_nikolaev_desc': { 
+        ru: 'Посвящён первому президенту Республики Саха (Якутия), уроженцу Хангаласского улуса.', 
+        en: "Dedicated to the first president of the Republic of Sakha (Yakutia), a native of the Khangalassky District.", 
+        sah: 'Посвящен первым президенту Республики Саха (Якутия), уроженце Хангаласского улуса.' },
+    'see_nikolaev_type': { ru: 'Музей', en: "Museum", sah: 'Түмэл' },
+    'see_nikolaev_desc_alt': 
+    { 
+        ru: 'Мемориальный музей первого президента Республики Саха (Якутия) М.Е. Николаева. Экспозиция рассказывает о его жизни, деятельности и вкладе в развитие республики.', 
+        en: "Memorial Museum of the First President of the Republic of Sakha (Yakutia), M. E. Nikolayev. The exhibition covers his life, his work, and his contribution to the development of the republic.", 
+        sah: 'Мемориальный музей Первого Президента Республики Саха (Якутия), М.Е.Николаева. Быыстапкаҕа кини олоҕун, үлэтин-хамнаһын, өрөспүүбүлүкэ сайдыытыгар кылаатын чинчийэр.' 
+    },
+    'see_nikolaev_address': { ru: 'Хангаласский улус, с. Октемцы.', en: "Khangalassky ulus, village. Oktemtsy.", sah: 'Хангаласский улус, с. Октемцы.' },
+    'see_nikolaev_hours': { ru: 'Вт–Сб 10:00–17:00', en: "Tue–Sat 10:00–17:00", sah: 'Вт–Сб 10:00–17:00' },
+    'see_nikolaev_ticket': { ru: 'Вход свободный', en: "Free entry", sah: 'Киирии босхо' },
+
+    //SEE OKTEMSY
+
+    'see_oktemsy':      { ru: 'Краеведческий музей с. Октемцы',   en: 'Oktemtsy Village Local History Museum',     sah: 'Октемцы аатынан краеведческай музей' },
+    'see_oktemsy_desc': { 
+        ru: 'Школьный музей с экспозицией по истории наслега.', 
+        en: "A school museum with an exhibition on the history of the rural settlement.", 
+        sah: 'Нэһилиэк историятын быыстапкалаах оскуола музейа.' },
+    'see_oktemsy_type': { ru: 'Музей', en: "Museum", sah: 'Түмэл' },
+    'see_oktemsy_desc_alt': 
+    { 
+        ru: 'Школьный краеведческий музей с экспозицией по истории Октемского наслега: предметы быта, фотографии, документы, материалы о знаменитых земляках.', 
+        en: "A school local history museum featuring an exhibition on the history of the Oktemsky rural settlement: everyday objects, photographs, documents, and materials about notable local figures.", 
+        sah: 'Оскуола краеведческай мусуойугар Октемскай наслег устуоруйатын быыстапката баар: дьиэҕэ туттуллар тэриллэр, хаартыскалар, докумуоннар, биллэр-көстөр олохтоохтор тустарынан матырыйааллар.' 
+    },
+    'see_oktemsy_address': { ru: 'Хангаласский улус, с. Октемцы, ул. Школьная, д. 1.', en: "Khangalassky District, Oktemtsy village, Shkolnaya St., 1.", sah: 'Хангаласскай улуус, Октемцы нэһилиэгэ, Школьнай уулусса, дьиэ 1.' },
+    'see_oktemsy_tickets': { ru: 'По предварительной договорённости (школьный музей).', en: "By prior arrangement (school museum).", sah: 'Эрдэттэн сөбүлэһии быһыытынан (оскуола музейа).' },
+
+    //SEE ULAKHAN
+
+    'see_ulakhan':      { ru: 'Краеведческий музей с. Улахан-Ан',   en: 'Local History Museum Ulakhan-An',     sah: 'Краеведческий музей с. Улахан-Ан' },
+    'see_ulakhan_desc': { 
+        ru: 'Сельский музей истории и культуры.', 
+        en: "Rural Museum of History and Culture.", 
+        sah: 'Тыа сирин историятын уонна култууратын музейа.' },
+    'see_ulakhan_type': { ru: 'Музей', en: "Museum", sah: 'Түмэл' },
+    'see_ulakhan_desc_alt': 
+    { 
+        ru: 'Сельский краеведческий музей с экспозицией по истории и культуре Улахан-Анского наслега.', 
+        en: "A rural local history museum featuring an exhibition on the history and culture of the Ulakhan-An rural settlement (nasleg).", 
+        sah: 'Сельский краеведческий музей с экспозицией по истории и культуре Улахан-Анского наслега.' 
+    },
+    'see_ulakhan_address': { ru: 'Хангаласский улус, с. Улахан-Ан.', en: "Khangalassky ulus, village. Ulakhan-An.", sah: 'Хангаласский улус, с. Улахан-Ан.' },
+    'see_ulakhan_tickets': { ru: 'По предварительной договорённости.', en: "By prior arrangement.", sah: 'Эрдэттэн сөбүлэһии быһыытынан.' },
+
+    //SEE DANILOV
+
+    'see_danilov':      { ru: 'Литературный музей С.П. Данилова',   en: 'Literary Museum S.P. Danilova',     sah: 'Литературнай музей Данилова С.П.' },
+    'see_danilov_desc': { 
+        ru: 'Посвящён народному писателю Якутии Софрону Петровичу Данилову.', 
+        en: "Dedicated to the people's writer of Yakutia Sofron Petrovich Danilov.", 
+        sah: 'Посвящен народному писателю Якутии Софрон Петрович Данилову.' },
+    'see_danilov_type': { ru: 'Музей', en: "Museum", sah: 'Түмэл' },
+    'see_danilov_desc_alt': 
+    { 
+        ru: 'Литературный музей, посвящённый народному писателю Якутии Софрону Петровичу Данилову. Экспозиция включает рукописи, личные вещи, фотографии.', 
+        en: "A literary museum dedicated to the People’s Writer of Yakutia, Sofron Petrovich Danilov. The exhibition includes manuscripts, personal belongings, and photographs.", 
+        sah: 'Литературный музей, посвященный якутскому писателю Софрону Петровичу Данилову. Быыстапкаҕа илиинэн суруйуулар, тус мал-сал, хаартыскалар бааллар.' 
+    },
+    'see_danilov_address': { ru: 'Хангаласский улус, с. Улахан-Ан.', en: "Khangalassky ulus, village. Ulakhan-An.", sah: 'Хангаласский улус, с. Улахан-Ан.' },
+    'see_danilov_hours': { ru: 'Вт–Сб 10:00–17:00', en: "Tue–Sat 10:00–17:00", sah: 'Вт–Сб 10:00–17:00' },
+
+    //BACK TO SEE
 
     'back_to_see': { ru: '← Назад к «Что посмотреть»', en: '← Back to "What to See"', sah: '← «Тугу көрөргө»' },
+
+    // MAP
 
     'map_title':    { ru: 'Карта',             en: 'Map',               sah: 'Каарта' },
     'map_subtitle': { ru: 'Центр — Покровск.', en: 'Center — Pokrovsk.', sah: 'Киин — Покровскай.' },
@@ -2169,9 +2358,10 @@ export const translations = {
     //AUDIO-GUIDE
 
     'audio-guide':    { ru: 'Аудиогиды',         en: 'Audio-guides',     sah: 'Билсэр сирдэр' },
-    'audio-guide-pokrovsk':    { ru: 'Аудиогид - Покровск',         en: 'Pokrovsk audio-guide',     sah: 'Билсэр сирдэр' },
-    'audio-guide-lena-pillars':    { ru: 'Аудиогид - Ленские столбы',         en: 'Lena pillars audio-guide',     sah: 'Билсэр сирдэр' },
-    'audio-guide-industrial':    { ru: 'Экскурсионный маршрут "Индустриальное сердце Хангаласского улуса"',         en: 'Lena pillars audio-guide',     sah: 'Билсэр сирдэр' },
+    'audio_subtitle': { ru: 'Аудиогиды по Хангалассу', en: 'Audio guides around Khangalass',   sah: 'Аудиогиды по Хангалассу' },
+    'audio-guide-pokrovsk':    { ru: 'История на каждом шагу: пешеходный тур по Покровску',         en: 'History at Every Turn: A Walking Tour of Pokrovsk',     sah: 'Хас биирдии хардыыга история: Покровскайга сатыы экскурсия' },
+    'audio-guide-lena-pillars':    { ru: 'Место Силы. Ленские Столбы. Часть 2. Экотропа',         en: 'A Place of Power. The Lena Pillars. Part 2. Eco-trail',     sah: 'Былаас миэстэтэ. Ленские Столбы. Часть 2. Экотропа' },
+    'audio-guide-industrial':    { ru: 'Экскурсионный маршрут "Индустриальное сердце Хангаласского улуса"',         en: 'Sightseeing route "The Industrial Heart of the Khangalassky District"',     sah: 'Экскурсионный маршрут "Индустриальное сердце Хангаласского улуса"' },
 
     //CONTACT
 
