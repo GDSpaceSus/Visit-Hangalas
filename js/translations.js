@@ -372,21 +372,24 @@ export const translations = {
         <br><a href="https://wa.me/79142664807">Написать в WhatsApp (дополнительный)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/lednik-buluus">Официальный сайт</a>`,
         en: `📞 Need help with selection or ready to make a booking? 
         <br>Give us a call or send us a message — our Yakutia expert will provide all the details and help you put together the perfect trip.
         <br><a href="https://wa.me/79640766644">Message us on WhatsApp (primary)</a>
         <br><a href="https://wa.me/79142664807">Message us on WhatsApp (secondary)</a>
         <br>📞 Phone: +7 (914) 266-48-07
         <br>📞 Phone: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/lednik-buluus">Official website</a>`,
         sah: `📞 Талыыга көмө наада дуу, эбэтэр сакаастыаххын баҕараҕын дуу?
         <br>Звоните или пишите нам — якутии эксперт все подробно объяснит и поможет вам планировать идеальную путешествие.
         <br><a href="https://wa.me/79640766644">Ватсапка сурук (сүрүн)</a>
         <br><a href="https://wa.me/79142664807">Ватсапка сурук (иккис)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Электроннай почта: travel@chuchuna.ru`,
+        <br>✉️ Электроннай почта: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/lednik-buluus">Официальный сайт</a>`,
     },
 
     //CHUCHUNA TOUR BUOTAMA
@@ -480,21 +483,24 @@ export const translations = {
         <br><a href="https://wa.me/79142664807">Написать в WhatsApp (дополнительный)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/dva-dnya-buotama">Официальный сайт</a>`,
         en: `📞 Need help with selection or ready to make a booking? 
         <br>Give us a call or send us a message — our Yakutia expert will provide all the details and help you put together the perfect trip.
         <br><a href="https://wa.me/79640766644">Message us on WhatsApp (primary)</a>
         <br><a href="https://wa.me/79142664807">Message us on WhatsApp (secondary)</a>
         <br>📞 Phone: +7 (914) 266-48-07
         <br>📞 Phone: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/dva-dnya-buotama">Official site</a>`,
         sah: `📞 Талыыга көмө наада дуу, эбэтэр сакаастыаххын баҕараҕын дуу?
         <br>Звоните или пишите нам — якутии эксперт все подробно объяснит и поможет вам планировать идеальную путешествие.
         <br><a href="https://wa.me/79640766644">Ватсапка сурук (сүрүн)</a>
         <br><a href="https://wa.me/79142664807">Ватсапка сурук (иккис)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Электроннай почта: travel@chuchuna.ru`,
+        <br>✉️ Электроннай почта: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/dva-dnya-buotama">Официальный сайт</a>`,
     },
 
     //CHUCHUNA WINTER
@@ -563,21 +569,24 @@ export const translations = {
         <br><a href="https://wa.me/79142664807">Написать в WhatsApp (дополнительный)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/zimnie-lenskie-stolby">Официальный сайт</a>`,
         en: `📞 Need help with selection or ready to make a booking? 
         <br>Give us a call or send us a message — our Yakutia expert will provide all the details and help you put together the perfect trip.
         <br><a href="https://wa.me/79640766644">Message us on WhatsApp (primary)</a>
         <br><a href="https://wa.me/79142664807">Message us on WhatsApp (secondary)</a>
         <br>📞 Phone: +7 (914) 266-48-07
         <br>📞 Phone: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/zimnie-lenskie-stolby">Official site</a>`,
         sah: `📞 Талыыга көмө наада дуу, эбэтэр сакаастыаххын баҕараҕын дуу?
         <br>Звоните или пишите нам — якутии эксперт все подробно объяснит и поможет вам планировать идеальную путешествие.
         <br><a href="https://wa.me/79640766644">Ватсапка сурук (сүрүн)</a>
         <br><a href="https://wa.me/79142664807">Ватсапка сурук (иккис)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Электроннай почта: travel@chuchuna.ru`,
+        <br>✉️ Электроннай почта: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/zimnie-lenskie-stolby">Официальный сайт</a>`,
     },
 
     //CHUCHUNA GOLDEN HILLS
@@ -642,21 +651,24 @@ export const translations = {
         <br><a href="https://wa.me/79142664807">Написать в WhatsApp (дополнительный)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/splav-reka-sinyaya">Официальный сайт</a>`,
         en: `📞 Need help with selection or ready to make a booking? 
         <br>Give us a call or send us a message — our Yakutia expert will provide all the details and help you put together the perfect trip.
         <br><a href="https://wa.me/79640766644">Message us on WhatsApp (primary)</a>
         <br><a href="https://wa.me/79142664807">Message us on WhatsApp (secondary)</a>
         <br>📞 Phone: +7 (914) 266-48-07
         <br>📞 Phone: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/splav-reka-sinyaya">Official site</a>`,
         sah: `📞 Талыыга көмө наада дуу, эбэтэр сакаастыаххын баҕараҕын дуу?
         <br>Звоните или пишите нам — якутии эксперт все подробно объяснит и поможет вам планировать идеальную путешествие.
         <br><a href="https://wa.me/79640766644">Ватсапка сурук (сүрүн)</a>
         <br><a href="https://wa.me/79142664807">Ватсапка сурук (иккис)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Электроннай почта: travel@chuchuna.ru`,
+        <br>✉️ Электроннай почта: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/splav-reka-sinyaya">Официальный сайт</a>`,
     },
 
     //CHUCHUNA CRUISE
@@ -716,21 +728,24 @@ export const translations = {
         <br><a href="https://wa.me/79142664807">Написать в WhatsApp (дополнительный)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/jakutiya-7-dnej-kruiz">Официальный сайт</a>`,
         en: `📞 Need help with selection or ready to make a booking? 
         <br>Give us a call or send us a message — our Yakutia expert will provide all the details and help you put together the perfect trip.
         <br><a href="https://wa.me/79640766644">Message us on WhatsApp (primary)</a>
         <br><a href="https://wa.me/79142664807">Message us on WhatsApp (secondary)</a>
         <br>📞 Phone: +7 (914) 266-48-07
         <br>📞 Phone: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/jakutiya-7-dnej-kruiz">Official site</a>`,
         sah: `📞 Талыыга көмө наада дуу, эбэтэр сакаастыаххын баҕараҕын дуу?
         <br>Звоните или пишите нам — якутии эксперт все подробно объяснит и поможет вам планировать идеальную путешествие.
         <br><a href="https://wa.me/79640766644">Ватсапка сурук (сүрүн)</a>
         <br><a href="https://wa.me/79142664807">Ватсапка сурук (иккис)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Электроннай почта: travel@chuchuna.ru`,
+        <br>✉️ Электроннай почта: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/jakutiya-7-dnej-kruiz">Официальный сайт</a>`,
     },
 
     //CHUCHUNA KETEME
@@ -801,21 +816,24 @@ export const translations = {
         <br><a href="https://wa.me/79142664807">Написать в WhatsApp (дополнительный)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/progulka-po-reke-bolshaya-keteme">Официальный сайт</a>`,
         en: `📞 Need help with selection or ready to make a booking? 
         <br>Give us a call or send us a message — our Yakutia expert will provide all the details and help you put together the perfect trip.
         <br><a href="https://wa.me/79640766644">Message us on WhatsApp (primary)</a>
         <br><a href="https://wa.me/79142664807">Message us on WhatsApp (secondary)</a>
         <br>📞 Phone: +7 (914) 266-48-07
         <br>📞 Phone: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/progulka-po-reke-bolshaya-keteme">Official site</a>`,
         sah: `📞 Талыыга көмө наада дуу, эбэтэр сакаастыаххын баҕараҕын дуу?
         <br>Звоните или пишите нам — якутии эксперт все подробно объяснит и поможет вам планировать идеальную путешествие.
         <br><a href="https://wa.me/79640766644">Ватсапка сурук (сүрүн)</a>
         <br><a href="https://wa.me/79142664807">Ватсапка сурук (иккис)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Электроннай почта: travel@chuchuna.ru`,
+        <br>✉️ Электроннай почта: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/progulka-po-reke-bolshaya-keteme">Официальный сайт</a>`,
     },
 
     //CHUCHUNA LENA PAINTINGS
@@ -910,21 +928,24 @@ export const translations = {
         <br><a href="https://wa.me/79142664807">Написать в WhatsApp (дополнительный)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/tur-progulka-lena/">Официальный сайт</a>`,
         en: `📞 Need help with selection or ready to make a booking? 
         <br>Give us a call or send us a message — our Yakutia expert will provide all the details and help you put together the perfect trip.
         <br><a href="https://wa.me/79640766644">Message us on WhatsApp (primary)</a>
         <br><a href="https://wa.me/79142664807">Message us on WhatsApp (secondary)</a>
         <br>📞 Phone: +7 (914) 266-48-07
         <br>📞 Phone: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/tur-progulka-lena/">Official site</a>`,
         sah: `📞 Талыыга көмө наада дуу, эбэтэр сакаастыаххын баҕараҕын дуу?
         <br>Звоните или пишите нам — якутии эксперт все подробно объяснит и поможет вам планировать идеальную путешествие.
         <br><a href="https://wa.me/79640766644">Ватсапка сурук (сүрүн)</a>
         <br><a href="https://wa.me/79142664807">Ватсапка сурук (иккис)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Электроннай почта: travel@chuchuna.ru`,
+        <br>✉️ Электроннай почта: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/tur-progulka-lena/">Официальный сайт</a>`,
     },
 
     //CHUCHUNA TUKULAN
@@ -995,21 +1016,24 @@ export const translations = {
         <br><a href="https://wa.me/79142664807">Написать в WhatsApp (дополнительный)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/tukulan-i-bizony/">Официальный сайт</a>`,
         en: `📞 Need help with selection or ready to make a booking? 
         <br>Give us a call or send us a message — our Yakutia expert will provide all the details and help you put together the perfect trip.
         <br><a href="https://wa.me/79640766644">Message us on WhatsApp (primary)</a>
         <br><a href="https://wa.me/79142664807">Message us on WhatsApp (secondary)</a>
         <br>📞 Phone: +7 (914) 266-48-07
         <br>📞 Phone: +7 (964) 076-66-44
-        <br>✉️ Email: travel@chuchuna.ru`,
+        <br>✉️ Email: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/tukulan-i-bizony/">Оfficial site</a>`,
         sah: `📞 Талыыга көмө наада дуу, эбэтэр сакаастыаххын баҕараҕын дуу?
         <br>Звоните или пишите нам — якутии эксперт все подробно объяснит и поможет вам планировать идеальную путешествие.
         <br><a href="https://wa.me/79640766644">Ватсапка сурук (сүрүн)</a>
         <br><a href="https://wa.me/79142664807">Ватсапка сурук (иккис)</a>
         <br>📞 Телефон: +7 (914) 266-48-07
         <br>📞 Телефон: +7 (964) 076-66-44
-        <br>✉️ Электроннай почта: travel@chuchuna.ru`,
+        <br>✉️ Электроннай почта: travel@chuchuna.ru
+        <br><a href="https://chuchuna.ru/tukulan-i-bizony/">Официальный сайт</a>`,
     },
 
     //LENATURFLOT SINSK
@@ -1348,6 +1372,7 @@ export const translations = {
 
     'lenatour_lena_pillar_contact': {
         ru: `Звоните и пишите нам, мы рады ответить на все интересующие вас вопросы
+        <br><a href="https://lena-tour-yakutia.ru/zimnie-lenskie-stolby-lena-tour-yakutia">Официальный сайт</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Написать в WhatsApp</a>
         <br><a href="https://t.me/lenatour">Написать в Телеграм</a>
@@ -1356,6 +1381,7 @@ export const translations = {
         <br><a href="https://www.youtube.com/@user-eq6vc1nj1d/videos">Ютуб</a>
         <br>Электронная почта: lenatour@internet.ru`,
         en: `Feel free to call or message us; we’ll be happy to answer any questions you may have.
+        <br><a href="https://lena-tour-yakutia.ru/zimnie-lenskie-stolby-lena-tour-yakutia">Official site</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Message us on WhatsApp</a>
         <br><a href="https://t.me/lenatour">Message us on Telegram</a>
@@ -1364,6 +1390,7 @@ export const translations = {
         <br><a href="https://www.youtube.com/@user-eq6vc1nj1d/videos">YouTube</a>
         <br>Email: lenatour@internet.ru`,
         sah: `Эрийиҥ эбэтэр суруйуҥ, бары ыйытыыларгытыгар үөрэ-көтө эппиэттиэхпит.
+        <br><a href="https://lena-tour-yakutia.ru/zimnie-lenskie-stolby-lena-tour-yakutia">Официальный сайт</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Ватсапка сурук</a>
         <br><a href="https://t.me/lenatour">Телеграмҥа сурук</a>
@@ -1439,6 +1466,7 @@ export const translations = {
 
     'lenatour_sinsk_pillar_contact': {
         ru: `Звоните и пишите нам, мы рады ответить на все интересующие вас вопросы
+        <br><a href="https://lena-tour-yakutia.ru/sinskie-stolby">Официальный сайт</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Написать в WhatsApp</a>
         <br><a href="https://t.me/lenatour">Написать в Телеграм</a>
@@ -1447,6 +1475,7 @@ export const translations = {
         <br><a href="https://www.youtube.com/@user-eq6vc1nj1d/videos">Ютуб</a>
         <br>Электронная почта: lenatour@internet.ru`,
         en: `Feel free to call or message us; we’ll be happy to answer any questions you may have.
+        <br><a href="https://lena-tour-yakutia.ru/sinskie-stolby">Official site</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Message us on WhatsApp</a>
         <br><a href="https://t.me/lenatour">Message us on Telegram</a>
@@ -1455,6 +1484,7 @@ export const translations = {
         <br><a href="https://www.youtube.com/@user-eq6vc1nj1d/videos">YouTube</a>
         <br>Email: lenatour@internet.ru`,
         sah: `Эрийиҥ эбэтэр суруйуҥ, бары ыйытыыларгытыгар үөрэ-көтө эппиэттиэхпит.
+        <br><a href="https://lena-tour-yakutia.ru/sinskie-stolby">Официальный сайт</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Ватсапка сурук</a>
         <br><a href="https://t.me/lenatour">Телеграмҥа сурук</a>
@@ -1565,6 +1595,7 @@ export const translations = {
 
     'lenatour_fishing_contact': {
         ru: `Звоните и пишите нам, мы рады ответить на все интересующие вас вопросы
+        <br><a href="https://lena-tour-yakutia.ru/podlednaya-rybalka-lena-tour-yakutia">Официальный сайт</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Написать в WhatsApp</a>
         <br><a href="https://t.me/lenatour">Написать в Телеграм</a>
@@ -1573,6 +1604,7 @@ export const translations = {
         <br><a href="https://www.youtube.com/@user-eq6vc1nj1d/videos">Ютуб</a>
         <br>Электронная почта: lenatour@internet.ru`,
         en: `Feel free to call or message us; we’ll be happy to answer any questions you may have.
+        <br><a href="https://lena-tour-yakutia.ru/podlednaya-rybalka-lena-tour-yakutia">Official site</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Message us on WhatsApp</a>
         <br><a href="https://t.me/lenatour">Message us on Telegram</a>
@@ -1581,6 +1613,7 @@ export const translations = {
         <br><a href="https://www.youtube.com/@user-eq6vc1nj1d/videos">YouTube</a>
         <br>Email: lenatour@internet.ru`,
         sah: `Эрийиҥ эбэтэр суруйуҥ, бары ыйытыыларгытыгар үөрэ-көтө эппиэттиэхпит.
+        <br><a href="https://lena-tour-yakutia.ru/podlednaya-rybalka-lena-tour-yakutia">Официальный сайт</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Ватсапка сурук</a>
         <br><a href="https://t.me/lenatour">Телеграмҥа сурук</a>
@@ -1655,6 +1688,7 @@ export const translations = {
 
     'lenatour_waterfall_contact': {
         ru: `Звоните и пишите нам, мы рады ответить на все интересующие вас вопросы
+        <br><a href="https://lena-tour-yakutia.ru/vodopad-yelanka-rechka-b-keteme-lena-tour-yakutia">Официальный сайт</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Написать в WhatsApp</a>
         <br><a href="https://t.me/lenatour">Написать в Телеграм</a>
@@ -1663,6 +1697,7 @@ export const translations = {
         <br><a href="https://www.youtube.com/@user-eq6vc1nj1d/videos">Ютуб</a>
         <br>Электронная почта: lenatour@internet.ru`,
         en: `Feel free to call or message us; we’ll be happy to answer any questions you may have.
+        <br><a href="https://lena-tour-yakutia.ru/vodopad-yelanka-rechka-b-keteme-lena-tour-yakutia">Official site</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Message us on WhatsApp</a>
         <br><a href="https://t.me/lenatour">Message us on Telegram</a>
@@ -1671,6 +1706,7 @@ export const translations = {
         <br><a href="https://www.youtube.com/@user-eq6vc1nj1d/videos">YouTube</a>
         <br>Email: lenatour@internet.ru`,
         sah: `Эрийиҥ эбэтэр суруйуҥ, бары ыйытыыларгытыгар үөрэ-көтө эппиэттиэхпит.
+        <br><a href="https://lena-tour-yakutia.ru/vodopad-yelanka-rechka-b-keteme-lena-tour-yakutia">Официальный сайт</a>
         <br>+7 (924) 177-38-08
         <br><a href="https://wa.me/79241773808">Ватсапка сурук</a>
         <br><a href="https://t.me/lenatour">Телеграмҥа сурук</a>
