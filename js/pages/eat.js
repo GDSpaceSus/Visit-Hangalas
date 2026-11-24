@@ -31,11 +31,11 @@ const PLACES = [
             thumbs: []
         },
         blocks: [
-            { title: `attr_desc_label`, content: 'Кондитерская с домашними десертами, тортами на заказ и свежей выпечкой. Популярное место у местных жителей.' },
-            { title: `attr_address_label`, content: 'г. Покровск, ул. Братьев Ксенофонтовых, 23' },
-            { title: 'Часы работы', content: 'Пн–Чт 08:30–19:00, Пятница 10:00-20:00, Сб-Вс 11:00–20:00' },
-            { title: 'Контакты', content: '+7-914-283-50-10' },
-            { title: 'Кухня', content: 'Кондитерская' }
+            { title: `eat_desc_label`, content: 'eat_raimuss_desc_full' },
+            { title: `eat_address_label`, content: 'eat_raimuss_address' },
+            { title: 'eat_hours', content: 'eat_raimuss_hours' },
+            { title: 'eat_contacts', content: '+7-914-283-50-10' },
+            { title: 'eat_cuisine', content: 'eat_raimuss_kitchen' }
         ]
     },
     {
@@ -49,11 +49,11 @@ const PLACES = [
             thumbs: []
         },
         blocks: [
-            { title: `attr_desc_label`, content: 'Корейская кухня: рамен, кимчи, пибимпап, корейские закуски. Быстрое обслуживание, большие порции.' },
-            { title: `attr_address_label`, content: 'г. Покровск, ул. Братьев Ксенофонтовых, 23' },
-            { title: 'Часы работы', content: 'Ежедневно с 11:00 до 20:00' },
-            { title: 'Контакты', content: '+7-914-105-25-35' },
-            { title: 'Кухня', content: 'Корейская' }
+            { title: `eat_desc_label`, content: 'eat_ramen_desc_full' },
+            { title: `eat_address_label`, content: 'eat_ramen_address' },
+            { title: 'eat_hours', content: 'eat_ramen_hours' },
+            { title: 'eat_contacts', content: '+7-914-105-25-35' },
+            { title: 'eat_cuisine', content: 'eat_ramen_kitchen' }
         ]
     }
 ];

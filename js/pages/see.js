@@ -9,14 +9,14 @@ const PLACES = [
             main: 'images/eab52766-11dc-5efb-ab51-b825e6bb5f11.jpg',
             thumbs: []
         },
-        name: 'Краеведческий музей г. Покровска',
-        desc: 'Богатая коллекция экспонатов: от древних окаменелостей до современного искусства.',
-        type: 'Музей',
+        nameKey: 'see_kraeved',
+        descKey: 'see_kraeved_desc',
+        typeKey: 'see_kraeved_type',
         blocks: [
-            { title: 'Описание', content: 'Один из старейших музеев Якутии. Постоянные экспозиции: палеонтология, этнография, история казачества, современное искусство. Регулярно проходят временные выставки.' },
-            { title: 'Адрес', content: 'г. Покровск, ул. Орджоникидзе, 50' },
-            { title: 'Часы работы', content: 'Будние дни 9:00–17:00, Сб-Вс Выходной' },
-            { title: 'Билеты', content: 'Взрослый — 200 ₽, детский — 100 ₽' }
+            { title: 'see_description', content: 'see_kraeved_desc_alt' },
+            { title: 'see_address', content: 'see_kraeved_address' },
+            { title: 'see_hours', content: 'see_kraeved_hours' },
+            { title: 'see_tickets', content: 'see_kraeved_ticket' }
         ]
     },
     {
@@ -29,14 +29,14 @@ const PLACES = [
                 'images/i.jpeg'
             ]
         },
-        name: 'Природный парк «Ленские столбы»',
-        desc: 'Прогулки по экологическим тропам, смотровые площадки, музей под открытым небом. Внесён в список ЮНЕСКО.',
-        type: 'Природный парк',
+        nameKey: 'see_lena_park',
+        descKey: 'see_lena_park_desc',
+        typeKey: 'see_lena_park_type',
         blocks: [
-            { title: 'Описание', content: 'Природный парк, включённый в список Всемирного наследия ЮНЕСКО. Величественные скалы высотой до 300 метров, экотропы, смотровые площадки, музей под открытым небом и стоянки древних людей.' },
-            { title: 'Адрес', content: 'Хангаласский улус, правый берег реки Лены, 60 км от Покровска.' },
-            { title: 'Как добраться', content: 'Из Якутска до Покровска (85 км), далее катером или на моторной лодке вверх по Лене. Зимой — по зимнику.' },
-            { title: 'Вход', content: 'Единый билет в парк — 300 ₽, экскурсия — от 1 500 ₽' }
+            { title: 'see_description', content: 'see_lena_park_desc_alt' },
+            { title: 'see_address', content: 'see_lena_park_address' },
+            { title: 'see_instructions', content: 'see_lena_park_instructions' },
+            { title: 'see_entry', content: 'see_lena_park_entry' }
         ]
     },
     {
@@ -46,14 +46,14 @@ const PLACES = [
             main: 'images/5ac33de2b9d8b315736742.jpg',
             thumbs: []
         },
-        name: 'Этнографический комплекс «Орто дойду»',
-        desc: 'На территории есть банкетный зал в национальном стиле, тёплые домики, ледовая горка, катание на ватрушках и снегоходах.',
-        type: 'Этно-парк',
+        nameKey: 'see_orto-doydu',
+        descKey: 'see_orto-doydu_desc',
+        typeKey: 'see_orto-doydu_type',
         blocks: [
-            { title: 'Описание', content: 'Этнографический комплекс в национальном стиле. Проводятся традиционные обряды, мастер-классы по народным ремёслам, национальные праздники (Ысыах и др.).' },
-            { title: 'Адрес', content: 'Хангаласский улус, вблизи села Октемцы.' },
-            { title: 'Часы работы', content: 'Ежедневно 09:00–21:00, по предварительной записи.' },
-            { title: 'Билеты', content: 'Экскурсия — от 500 ₽, мастер-класс — от 800 ₽' }
+            { title: 'see_description', content: 'see_orto-doydu_desc_alt' },
+            { title: 'see_address', content: 'see_orto-doydu_address' },
+            { title: 'see_hours', content: 'see_orto-doydu_hours' },
+            { title: 'see_tickets', content: 'see_orto-doydu_ticket' }
         ]
     },
     {
@@ -63,14 +63,14 @@ const PLACES = [
             main: 'images/photo_2022-12-07_14-20-37-2.jpg',
             thumbs: []
         },
-        name: 'Дом-музей Серго Орджоникидзе',
-        desc: 'Выдающийся государственный деятель, внёсший значительный вклад в историю Якутии и страны.',
-        type: 'Музей',
+        nameKey: 'see_ord',
+        descKey: 'see_ord_desc',
+        typeKey: 'see_ord_type',
         blocks: [
-            { title: 'Описание', content: 'Мемориальный дом-музей, посвящённый Серго Орджоникидзе, отбывавшему здесь ссылку. Воссоздан быт конца XIX века.' },
-            { title: 'Адрес', content: 'Хангаласский улус, с. Октемцы.' },
-            { title: 'Часы работы', content: 'Вт–Сб 10:00–17:00' },
-            { title: 'Билеты', content: 'Взрослый — 150 ₽, детский — 80 ₽' }
+            { title: 'see_description', content: 'see_ord_desc_alt' },
+            { title: 'see_address', content: 'see_ord_address' },
+            { title: 'see_hours', content: 'see_ord_hours' },
+            { title: 'see_tickets', content: 'see_ord_ticket' }
         ]
     },
     {
@@ -80,13 +80,13 @@ const PLACES = [
             main: 'images/image_31.webp',
             thumbs: []
         },
-        name: 'Водопад Еланка',
-        desc: 'Природное явление в Республике Саха (Якутия), расположенное в посёлке Еланка Хангаласского района.',
-        type: 'Водопад',
+        nameKey: 'see_elanka',
+        descKey: 'see_elanka_desc',
+        typeKey: 'see_elanka_type',
         blocks: [
-            { title: 'Описание', content: 'Живописный водопад в посёлке Еланка. Особенно красив весной и в начале лета, когда тают снега. Рядом — удобные смотровые площадки.' },
-            { title: 'Адрес', content: 'Хангаласский улус, пос. Еланка.' },
-            { title: 'Как добраться', content: 'Из Якутска по Покровскому тракту до поворота на Еланку (около 60 км).' }
+            { title: 'see_description', content: 'see_elanka_desc_alt' },
+            { title: 'see_address', content: 'see_elanka_address' },
+            { title: 'see_instructions', content: 'see_elanka_instructions' }
         ]
     },
     {
@@ -96,14 +96,14 @@ const PLACES = [
             main: 'images/1758926977_68d7188103581.jpg',
             thumbs: []
         },
-        name: 'Дом-музей М.Е. Николаева',
-        desc: 'Посвящён первому президенту Республики Саха (Якутия), уроженцу Хангаласского улуса.',
-        type: 'Музей',
+        nameKey: 'see_nikolaev',
+        descKey: 'see_nikolaev_desc',
+        typeKey: 'see_nikolaev_type',
         blocks: [
-            { title: 'Описание', content: 'Мемориальный музей первого президента Республики Саха (Якутия) М.Е. Николаева. Экспозиция рассказывает о его жизни, деятельности и вкладе в развитие республики.' },
-            { title: 'Адрес', content: 'Хангаласский улус, с. Октемцы.' },
-            { title: 'Часы работы', content: 'Вт–Сб 10:00–17:00' },
-            { title: 'Билеты', content: 'Вход свободный' }
+            { title: 'see_description', content: 'see_nikolaev_desc_alt' },
+            { title: 'see_address', content: 'see_nikolaev_address' },
+            { title: 'see_hours', content: 'see_nikolaev_hours' },
+            { title: 'see_tickets', content: 'see_nikolaev_ticket' }
         ]
     },
     {
@@ -113,13 +113,13 @@ const PLACES = [
             main: 'images/image_33.webp',
             thumbs: []
         },
-        name: 'Краеведческий музей с. Октемцы',
-        desc: 'Школьный музей с экспозицией по истории наслега.',
-        type: 'Музей',
+        nameKey: 'see_oktemsy',
+        descKey: 'see_oktemsy_desc',
+        typeKey: 'see_oktemsy_type',
         blocks: [
-            { title: 'Описание', content: 'Школьный краеведческий музей с экспозицией по истории Октемского наслега: предметы быта, фотографии, документы, материалы о знаменитых земляках.' },
-            { title: 'Адрес', content: 'Хангаласский улус, с. Октемцы, ул. Школьная, д. 1.' },
-            { title: 'Часы работы', content: 'По предварительной договорённости (школьный музей).' }
+            { title: 'see_description', content: 'see_oktemsy_desc_alt' },
+            { title: 'see_address', content: 'see_oktemsy_address' },
+            { title: 'see_tickets', content: 'see_oktemsy_tickets' }
         ]
     },
     {
@@ -129,13 +129,13 @@ const PLACES = [
             main: 'images/10d18276-7d25-4402-9188-5a7756fbea08.jpg',
             thumbs: []
         },
-        name: 'Краеведческий музей с. Улахан-Ан',
-        desc: 'Сельский музей истории и культуры.',
-        type: 'Музей',
+        nameKey: 'see_ulakhan',
+        descKey: 'see_ulakhan_desc',
+        typeKey: 'see_ulakhan_type',
         blocks: [
-            { title: 'Описание', content: 'Сельский краеведческий музей с экспозицией по истории и культуре Улахан-Анского наслега.' },
-            { title: 'Адрес', content: 'Хангаласский улус, с. Улахан-Ан.' },
-            { title: 'Часы работы', content: 'По предварительной договорённости.' }
+            { title: 'see_description', content: 'see_ulakhan_desc_alt' },
+            { title: 'see_address', content: 'see_ulakhan_address' },
+            { title: 'see_tickets', content: 'see_ulakhan_tickets' }
         ]
     },
     {
@@ -145,13 +145,13 @@ const PLACES = [
             main: 'images/image_35.webp',
             thumbs: []
         },
-        name: 'Литературный музей С.П. Данилова',
-        desc: 'Посвящён народному писателю Якутии Софрону Петровичу Данилову.',
-        type: 'Музей',
+        nameKey: 'see_danilov',
+        descKey: 'see_danilov_desc',
+        typeKey: 'see_danilov_type',
         blocks: [
-            { title: 'Описание', content: 'Литературный музей, посвящённый народному писателю Якутии Софрону Петровичу Данилову. Экспозиция включает рукописи, личные вещи, фотографии.' },
-            { title: 'Адрес', content: 'Хангаласский улус, с. Улахан-Ан.' },
-            { title: 'Часы работы', content: 'Вт–Сб 10:00–17:00' }
+            { title: 'see_description', content: 'see_danilov_desc_alt' },
+            { title: 'see_address', content: 'see_danilov_address' },
+            { title: 'see_hours', content: 'see_danilov_hours' }
         ]
     }
 ];
@@ -161,9 +161,9 @@ export function renderSeePage() {
         card({
             id: item.id,
             img: item.gallery.main,
-            name: item.name,
-            desc: item.desc,
-            extra: `${item.type}`
+            name: t(item.nameKey),
+            desc: t(item.descKey),
+            extra: `${t(item.typeKey)}`
         })
     ).join('');
 
@@ -182,7 +182,7 @@ export function renderSeeDetail(id) {
     if (!item) return;
 
     renderDetailPage({
-        title: item.name,
+        title: t(item.nameKey),
         mainImg: item.gallery.main,
         thumbs: item.gallery.thumbs,
         blocks: item.blocks,
